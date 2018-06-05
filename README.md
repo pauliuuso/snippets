@@ -17,6 +17,12 @@ winpty docker-compose exec php-fpm php bin/console doctrine:database:drop --forc
 winpty docker-compose exec php-fpm php bin/console doctrine:database:create
 
 
+________________________________________________________________________________________________________________________________
+
+# laravel snippets
+
+#### link storage
+php artisan storage:link
 
 ___________________________________________________________________________________________________________________________________
 
