@@ -52,6 +52,6 @@ docker rm $(docker ps -aq)
 
 docker rmi $(docker images -q)
 
-### build and start
-$ ./start-dev.sh
+### list all volumes
+docker volume ls
 
