@@ -55,3 +55,6 @@ docker rmi $(docker images -q)
 ### list all volumes
 docker volume ls
 
+### load fixtures
+php bin/console doctrine:fixtures:load
+
