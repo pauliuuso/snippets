@@ -51,3 +51,7 @@ docker rm $(docker ps -aq)
 #### remove all images
 
 docker rmi $(docker images -q)
+
+### build and start
+$ ./start-dev.sh
+
