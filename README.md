@@ -58,3 +58,6 @@ docker volume ls
 ### load fixtures
 php bin/console doctrine:fixtures:load
 
+### composer install
+docker-compose exec -u 1000 php-fpm composer install
+
