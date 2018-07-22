@@ -16,6 +16,10 @@ winpty docker-compose exec php-fpm php bin/console doctrine:database:drop --forc
 
 winpty docker-compose exec php-fpm php bin/console doctrine:database:create
 
+#### load fixtures
+
+winpty docker-compose exec php-fpm php bin/console doctrine:fixtures:load
+
 #### flush database with entity structure
 
 winpty docker-compose exec php-fpm php bin/console d:s:u --force
