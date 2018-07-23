@@ -24,6 +24,10 @@ winpty docker-compose exec php-fpm php bin/console doctrine:fixtures:load
 
 winpty docker-compose exec php-fpm php bin/console d:s:u --force
 
+#### start symfony server
+
+php bin/console server:run
+
 
 ________________________________________________________________________________________________________________________________
 
