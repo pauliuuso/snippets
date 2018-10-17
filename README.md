@@ -28,11 +28,11 @@ winpty docker-compose exec php-fpm php bin/console d:s:u --force
 
 php bin/console server:run
 
-### show js routes
+#### show js routes
 
 php bin/console fos:js-routing:dump
 
-### generate js json routes
+#### generate js json routes
 
 php bin/console fos:js-routing:dump --format=json --target=assets/js/js_routes.json
 
