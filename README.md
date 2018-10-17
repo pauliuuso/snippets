@@ -69,13 +69,13 @@ docker rm $(docker ps -aq)
 
 docker rmi $(docker images -q)
 
-### list all volumes
+#### list all volumes
 docker volume ls
 
-### load fixtures
+#### load fixtures
 php bin/console doctrine:fixtures:load
 
-### composer install
+#### composer install
 docker-compose exec -u 1000 php-fpm composer install
 
 ___________________________________________________________________________________________________________________________________
