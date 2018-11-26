@@ -36,6 +36,9 @@ php bin/console fos:js-routing:dump
 
 php bin/console fos:js-routing:dump --format=json --target=assets/js/js_routes.json
 
+#### after deploy
+chmod -R 777 var/cache var/log
+
 
 
 ________________________________________________________________________________________________________________________________
