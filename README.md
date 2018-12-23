@@ -51,6 +51,10 @@ php artisan storage:link
 #### link storage manually
 ln -sfn /var/www/source/public/ /var/www/source/public_html/storage
 
+#### build assets
+npm run dev
+npm run production
+
 ___________________________________________________________________________________________________________________________________
 
 
