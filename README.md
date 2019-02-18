@@ -2,7 +2,7 @@
 
 #### make migrations, entities, controllers etc.
 
-winpty docker-compose exec php-fpm php bin/console doctrine:migrations:diff
+winpty docker-compose exec php-fpm php bin/console doctrine:migrations:diff \n
 winpty docker-compose exec php-fpm php bin/console make:{migration/entity/controller}
 
 #### migrate
