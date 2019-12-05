@@ -1,6 +1,6 @@
 # Git snippets
 
-### change git origin
+#### change git origin
 $ git remote rm origin  
 $ git remote add origin new_url.git  
 $ git config master.remote origin  
