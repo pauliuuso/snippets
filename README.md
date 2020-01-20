@@ -6,6 +6,12 @@ $ git remote add origin new_url.git
 $ git config master.remote origin  
 $ git config master.merge refs/heads/master  
 
+#### start ignoring commited file
+$ git update-index --assume-unchanged <file>
+  
+#### stop ignoring commited file
+git update-index --no-assume-unchanged <file>
+
 # symfony_snippets with docker
 
 #### make migrations, entities, controllers etc.
