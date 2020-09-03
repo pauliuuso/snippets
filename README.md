@@ -15,6 +15,9 @@ git update-index --no-assume-unchanged <file>
 #### stage all whole working tree, even with manually deleted files
 git add -u :/
 
+#### clear unstaged
+git clean -df
+
 # symfony_snippets with docker
 
 #### make migrations, entities, controllers etc.
