@@ -1,3 +1,14 @@
+# Unity snippets
+
+### how to use logcat to receive messages from android device:
+
+#### Navigate to:
+C:\Users\USERNAME\AppData\Local\Android\sdk\platform-tools
+
+#### Run command:
+adb logcat -s Unity PackageManager dalvikvm DEBUG
+
+
 # Git snippets
 
 #### change git origin
