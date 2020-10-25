@@ -6,7 +6,7 @@
 C:\Users\USERNAME\AppData\Local\Android\sdk\platform-tools
 
 #### Run command:
-adb logcat -s Unity PackageManager dalvikvm DEBUG
+./adb logcat -s Unity PackageManager dalvikvm DEBUG > logcat.txt
 
 
 # Git snippets
