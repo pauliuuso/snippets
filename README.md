@@ -1,5 +1,13 @@
 # Unity snippets
 
+### how to manually install Android SDK target versions
+
+#### Navigate to:
+cd C:\Program Files\Unity\Hub\Editor\[UNITYVERSION]\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\tools\bin
+
+#### Run:
+sdkmanager "platform-tools" "platforms;android-30"
+
 ### how to use logcat to receive messages from android device:
 
 #### Navigate to:
