@@ -1,5 +1,10 @@
 # Unity snippets
 
+### Monitor unity warnings, debug, errors
+
+#### Open:
+C:\Users\Ursa\AppData\Local\Android\Sdk\tools\monitor.bat
+
 ### how to manually install Android SDK target versions
 
 #### Navigate to:
