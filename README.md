@@ -1,5 +1,17 @@
 # Unity snippets
 
+### iOS build
+
+Unity-Iphone -> Build Settings -> Always Embed Swift Standard Libraries -> Yes
+
+Unity-Iphone -> Build Phases -> + -> New Run Script Phase -> Add this script:
+
+cd "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Frameworks/UnityFramework.framework/"
+if [[ -d "Frameworks" ]]; then
+    rm -fr Frameworks
+fi
+
+
 ### Monitor unity warnings, debug, errors
 
 #### Open:
