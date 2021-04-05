@@ -11,6 +11,8 @@ if [[ -d "Frameworks" ]]; then
     rm -fr Frameworks
 fi
 
+### Abdroid Facebook keystore path
+C:\Users\YOUR_USER\.android\debug.keystore
 
 ### Monitor unity warnings, debug, errors
 
