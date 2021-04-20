@@ -3,6 +3,7 @@
 ### iOS build
 
 Unity-Iphone -> Build Settings -> Always Embed Swift Standard Libraries -> Yes
+
 UnityFramework -> Build Settings -> Always Embed Swift Standard Libraries -> No
 
 #### If above doesn't work, try:
