@@ -2,6 +2,11 @@
 
 ### iOS build
 
+If you get error ``StackConsentManager.h file not found unity``
+1. Open your podfile in your build folder
+2. Add pod 'StackConsentManager', '~> 1.1.2'
+3. Run pod install in your build folder
+
 Unity-Iphone -> Build Settings -> Always Embed Swift Standard Libraries -> Yes
 
 UnityFramework -> Build Settings -> Always Embed Swift Standard Libraries -> No
