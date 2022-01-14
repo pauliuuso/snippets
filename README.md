@@ -9,7 +9,7 @@ You probably need these paths in ``Library search paths``
 1. ```$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)```
 2. ```$(SDKROOT)/usr/lib/swift```
 3. ```$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)```
-4. 
+
 __________________________________________________________________
 
 You may need to add an empty Swift file for both Unity-Iphone and UnityFramework
