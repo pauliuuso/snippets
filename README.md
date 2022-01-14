@@ -6,10 +6,10 @@ __________________________________________________________________
 
 You probably need these paths in ``Library search paths``
 
-```$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)```
-```$(SDKROOT)/usr/lib/swift```
-```$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)```
-
+1. ```$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)```
+2. ```$(SDKROOT)/usr/lib/swift```
+3. ```$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)```
+4. 
 __________________________________________________________________
 
 You may need to add an empty Swift file for both Unity-Iphone and UnityFramework
@@ -19,10 +19,12 @@ __________________________________________________________________
 You may need to add ``UniformTypeIdentifiers.framework`` to Unity-Iphone -> (General tab) Frameworks, Libraries, Embedded content (and maybe libswiftUniformTypeIdentifiers.tbd)
 
 __________________________________________________________________
+
 If you get error "StackConsentManager.h file not found unity"
 1. Open your podfile in your build folder
 2. Add ``pod 'StackConsentManager', '~> 1.1.2'``
 3. Run ``pod install`` in your build folder
+
 __________________________________________________________________
 
 Unity-Iphone -> Build Settings -> Always Embed Swift Standard Libraries -> Yes
