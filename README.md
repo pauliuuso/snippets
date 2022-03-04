@@ -18,6 +18,8 @@ __________________________________________________________________
 
 You may need to add ``UniformTypeIdentifiers.framework`` to Unity-Iphone -> (General tab) Frameworks, Libraries, Embedded content (and maybe libswiftUniformTypeIdentifiers.tbd)
 
+You also need to set these linked frameworks as "optional" in Build Phases -> Link Binary With Libraries
+
 __________________________________________________________________
 
 If you get error "StackConsentManager.h file not found unity"
